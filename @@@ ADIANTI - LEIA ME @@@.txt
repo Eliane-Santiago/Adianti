@@ -1,0 +1,51 @@
+
+>>> CLASSES 
+
+- TPage: Cria páginas
+
+- TWindows: Cria Janelas
+
+- TTable: Cria tabelas
+* addRow() : É método TTable; adiciona linha; Retorna TTableRow
+* addCell() :  Adiciona celula; Cada celula representa uma coluna; Retorna TTableCell
+* colspan() : Mecla celulas
+
+- TLabel : Cria rótulo de texto
+
+- TEntry : Caixa de texto
+
+- add() ; Adiciona conteúdo
+
+
+
+
+>>> COMANDOS
+$title ($title = new TTable ('Nome_Tabela');) // Cria um objeto
+
+$tatle ($table = new TTable;) // Cria uma tabelas
+
+adianti_target_container(atributo); // Define em qual tag do DOM a página será renderizada
+Ex.: $this->adianti_target_container='message_area'
+OBS: 'message_area' é o mesmo que 'id_da_tag_DOM'
+
+>>> DEFINIÇÕES
+
+- Renderizar: Forma a página / Imagem / Objeto dinâmicamente
+
+- DOM: É a página HTML 
+OBS: Cada tag da página HTML é um objeto onde o DOM é classe pai. 
+
+- Redenrização TWindows feira pelo framework
+ARQUIVO: layout.html (layout do sistema)
+TAG: <div>
+ID: adianti_div_content
+
+- Redenrização TPage feira pelo framework
+ARQUIVO: layout.html (layout do sistema)
+TAG: <div>
+ID: adianti_online_content
+
+- PASTA RESOURCES: pasta onde é para salvar os arquivios o arquivos HTML e CSS
+
+- MENU: O arquivo fica na pasta principal, chamado menu.xml
+Obs: É nesse arquivos que fica o layout dos menus
