@@ -45,7 +45,13 @@ ARQUIVO: layout.html (layout do sistema)
 TAG: <div>
 ID: adianti_online_content
 
-- PASTA RESOURCES: pasta onde é para salvar os arquivios o arquivos HTML e CSS
+
+>>> PASTAS
+- RESOURCES: pasta onde é para salvar os arquivios o arquivos HTML e CSS
 
 - MENU: O arquivo fica na pasta principal, chamado menu.xml
 Obs: É nesse arquivos que fica o layout dos menus
+
+- MODEL: Fica os arquivos php só de classes
+
+- APP -> CONTROL : Pasta onde fica o arquivos principal do projetos
