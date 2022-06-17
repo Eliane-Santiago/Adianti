@@ -55,3 +55,9 @@ Obs: É nesse arquivos que fica o layout dos menus
 - MODEL: Fica os arquivos php só de classes
 
 - APP -> CONTROL : Pasta onde fica o arquivos principal do projetos
+
+- APP -> CONFIG: Fica os arquivos de Conexão do Banco de Dados
+
+- APP -> DATABASE: FICA OS COMANDO DOS BANCO DE DADOS
+
+- LIB -> ADIANTI -> WIDGET: Caminho onde fica as classe padrão do framework
